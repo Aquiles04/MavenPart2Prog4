@@ -14,12 +14,13 @@
         
         <c:forEach var="produto" items="${produtos}">
                    
-        
-        <p> ${produto.id} </p>
-        <p> ${produto.nome} </p>
-        <p> ${produto.quantidade} </p>
-        <p> ${produto.precoUnitario} </p>
-        
+            <div>
+                <p> ${produto.id} </p>
+                <p> ${produto.nome} </p>
+                <p> ${produto.quantidade} </p>
+                <p> ${produto.precoUnitario} </p>
+            </div>
+            
         </c:forEach>
         
         

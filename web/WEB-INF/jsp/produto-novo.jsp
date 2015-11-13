@@ -16,7 +16,10 @@
                         path="nome"
                         type="text"/>
             <label for="precoUnitario"> Preco Unitario</label>
-            <form:input id="precoUnitario" path="precoUnitario" type="text"/>
+            <form:input id="precoUnitario" 
+                        path="precoUnitario" 
+                        type="text"/>
+            <input type="submit" value="Salvar"
         </form:form>
             
     </body>

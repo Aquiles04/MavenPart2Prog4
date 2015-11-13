@@ -41,7 +41,7 @@ public class Produto {
         return precoUnitario;
     }
 
-    public void setPrecoUnitario(float PrecoUnitario) {
+    public void setPrecoUnitario(float precoUnitario) {
         this.precoUnitario = precoUnitario;
     }
    

@@ -6,7 +6,9 @@
 package repositorios;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 import modelos.Produto;
 import org.springframework.stereotype.Repository;
 
@@ -28,16 +30,20 @@ public class MemoriaProdutoRepositorio implements ProdutoRepositorio{
         produtos.add(new Produto());
         produtos.get(0).setId(1L);
         produtos.get(0).setNome("Iphone");
+        produtos.get(0).setQuantidade((float)15.2);
         produtos.get(0).setPrecoUnitario((float) 9999.99);
         
         produtos.add(new Produto());
         produtos.get(1).setId(2L);
         produtos.get(1).setNome("Samsung Galaxy");
+        produtos.get(1).setQuantidade((float)1.0);
         produtos.get(1).setPrecoUnitario((float) 899.99);
         
         produtos.add(new Produto());
         produtos.get(2).setId(2L);
         produtos.get(2).setNome("Moto G");
+        produtos.get(2).setQuantidade((float)3.2);
+
         produtos.get(2).setPrecoUnitario((float) 699.99);
         
     }
