@@ -17,6 +17,6 @@ public interface ProdutoRepositorio {
     
     public List<Produto> obterTodos();
     
-    public Produto obterPorId(Long id);
+    public Produto obterPorId(long id);
     
 }

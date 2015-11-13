@@ -49,7 +49,7 @@ public class MemoriaProdutoRepositorio implements ProdutoRepositorio{
     }
     
     @Override
-    public Produto obterPorId(Long id){
+    public Produto obterPorId(long id){
         
         Produto produto;
         produto = produtos.stream()
